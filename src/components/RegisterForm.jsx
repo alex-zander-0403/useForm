@@ -3,7 +3,6 @@ import styles from "./Form.module.css";
 export function RegisterForm({ formData, handleChange, handleSubmit }) {
   //
 
-  //
   return (
     <form onSubmit={handleSubmit} className={styles.block}>
       <label>Логин</label>
